@@ -3,26 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		554DC76F2C791C020039CE9E /* ViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DC76E2C791C020039CE9E /* ViewsAndModifiersApp.swift */; };
-		554DC7712C791C020039CE9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DC7702C791C020039CE9E /* ContentView.swift */; };
-		554DC7732C791C070039CE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554DC7722C791C070039CE9E /* Assets.xcassets */; };
-		554DC7762C791C070039CE9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554DC7752C791C070039CE9E /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		554DC76B2C791C020039CE9E /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		554DC76E2C791C020039CE9E /* ViewsAndModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiersApp.swift; sourceTree = "<group>"; };
-		554DC7702C791C020039CE9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		554DC7722C791C070039CE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		554DC7752C791C070039CE9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C2A0462C9FB5EF005D8BB8 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		55C2A0482C9FB5EF005D8BB8 /* CupcakeCorner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CupcakeCorner;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		554DC7682C791C020039CE9E /* Frameworks */ = {
+		55C2A0432C9FB5EF005D8BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,120 +29,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		554DC7622C791C020039CE9E = {
+		55C2A03D2C9FB5EF005D8BB8 = {
 			isa = PBXGroup;
 			children = (
-				554DC76D2C791C020039CE9E /* ViewsAndModifiers */,
-				554DC76C2C791C020039CE9E /* Products */,
+				55C2A0482C9FB5EF005D8BB8 /* CupcakeCorner */,
+				55C2A0472C9FB5EF005D8BB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		554DC76C2C791C020039CE9E /* Products */ = {
+		55C2A0472C9FB5EF005D8BB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				554DC76B2C791C020039CE9E /* ViewsAndModifiers.app */,
+				55C2A0462C9FB5EF005D8BB8 /* CupcakeCorner.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		554DC76D2C791C020039CE9E /* ViewsAndModifiers */ = {
-			isa = PBXGroup;
-			children = (
-				554DC76E2C791C020039CE9E /* ViewsAndModifiersApp.swift */,
-				554DC7702C791C020039CE9E /* ContentView.swift */,
-				554DC7722C791C070039CE9E /* Assets.xcassets */,
-				554DC7742C791C070039CE9E /* Preview Content */,
-			);
-			path = ViewsAndModifiers;
-			sourceTree = "<group>";
-		};
-		554DC7742C791C070039CE9E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				554DC7752C791C070039CE9E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		554DC76A2C791C020039CE9E /* ViewsAndModifiers */ = {
+		55C2A0452C9FB5EF005D8BB8 /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554DC7792C791C070039CE9E /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */;
+			buildConfigurationList = 55C2A0542C9FB5F2005D8BB8 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				554DC7672C791C020039CE9E /* Sources */,
-				554DC7682C791C020039CE9E /* Frameworks */,
-				554DC7692C791C020039CE9E /* Resources */,
+				55C2A0422C9FB5EF005D8BB8 /* Sources */,
+				55C2A0432C9FB5EF005D8BB8 /* Frameworks */,
+				55C2A0442C9FB5EF005D8BB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ViewsAndModifiers;
-			productName = ViewsAndModifiers;
-			productReference = 554DC76B2C791C020039CE9E /* ViewsAndModifiers.app */;
+			fileSystemSynchronizedGroups = (
+				55C2A0482C9FB5EF005D8BB8 /* CupcakeCorner */,
+			);
+			name = CupcakeCorner;
+			packageProductDependencies = (
+			);
+			productName = CupcakeCorner;
+			productReference = 55C2A0462C9FB5EF005D8BB8 /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		554DC7632C791C020039CE9E /* Project object */ = {
+		55C2A03E2C9FB5EF005D8BB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					554DC76A2C791C020039CE9E = {
-						CreatedOnToolsVersion = 15.4;
+					55C2A0452C9FB5EF005D8BB8 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 554DC7662C791C020039CE9E /* Build configuration list for PBXProject "ViewsAndModifiers" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 55C2A0412C9FB5EF005D8BB8 /* Build configuration list for PBXProject "CupcakeCorner" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 554DC7622C791C020039CE9E;
-			productRefGroup = 554DC76C2C791C020039CE9E /* Products */;
+			mainGroup = 55C2A03D2C9FB5EF005D8BB8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55C2A0472C9FB5EF005D8BB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				554DC76A2C791C020039CE9E /* ViewsAndModifiers */,
+				55C2A0452C9FB5EF005D8BB8 /* CupcakeCorner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		554DC7692C791C020039CE9E /* Resources */ = {
+		55C2A0442C9FB5EF005D8BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554DC7762C791C070039CE9E /* Preview Assets.xcassets in Resources */,
-				554DC7732C791C070039CE9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		554DC7672C791C020039CE9E /* Sources */ = {
+		55C2A0422C9FB5EF005D8BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554DC7712C791C020039CE9E /* ContentView.swift in Sources */,
-				554DC76F2C791C020039CE9E /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		554DC7772C791C070039CE9E /* Debug */ = {
+		55C2A0522C9FB5F2005D8BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -208,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		554DC7782C791C070039CE9E /* Release */ = {
+		55C2A0532C9FB5F2005D8BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -264,14 +244,15 @@
 			};
 			name = Release;
 		};
-		554DC77A2C791C070039CE9E /* Debug */ = {
+		55C2A0552C9FB5F2005D8BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ViewsAndModifiers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S4C5772AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fpizelli.ViewsAndModifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fpizelli.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +273,15 @@
 			};
 			name = Debug;
 		};
-		554DC77B2C791C070039CE9E /* Release */ = {
+		55C2A0562C9FB5F2005D8BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ViewsAndModifiers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S4C5772AW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fpizelli.ViewsAndModifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fpizelli.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		554DC7662C791C020039CE9E /* Build configuration list for PBXProject "ViewsAndModifiers" */ = {
+		55C2A0412C9FB5EF005D8BB8 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554DC7772C791C070039CE9E /* Debug */,
-				554DC7782C791C070039CE9E /* Release */,
+				55C2A0522C9FB5F2005D8BB8 /* Debug */,
+				55C2A0532C9FB5F2005D8BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554DC7792C791C070039CE9E /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */ = {
+		55C2A0542C9FB5F2005D8BB8 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554DC77A2C791C070039CE9E /* Debug */,
-				554DC77B2C791C070039CE9E /* Release */,
+				55C2A0552C9FB5F2005D8BB8 /* Debug */,
+				55C2A0562C9FB5F2005D8BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 554DC7632C791C020039CE9E /* Project object */;
+	rootObject = 55C2A03E2C9FB5EF005D8BB8 /* Project object */;
 }
